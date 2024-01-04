@@ -1,0 +1,8 @@
+{
+  "name": "pet-cuy",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

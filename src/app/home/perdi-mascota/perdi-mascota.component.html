@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Formulario Mascota Perdida</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Formulario Mascota Perdida</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label position="floating">Tipo Mascota</ion-label>
+          <ion-input type="text" name="petType" ></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Raza Mascota</ion-label>
+          <ion-input type="text" name="petBreed" ></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Color Mascota</ion-label>
+          <ion-input type="text" name="petColor" ></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Descripcion Mascota</ion-label>
+          <ion-textarea name="petDescription"  rows="3"></ion-textarea>
+        </ion-item>
+
+        <ion-title>
+          <ion-label position="floating">Fotos</ion-label>
+          
+        </ion-title>
+        <ion-item>
+        <ion-input type="file" name="petImage" ></ion-input>
+      </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button expand="full" (click)="ingresar()">Ingresar</ion-button>
+</ion-content>
+
